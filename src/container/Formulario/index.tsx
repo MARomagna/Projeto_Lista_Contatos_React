@@ -14,7 +14,7 @@ const Formulario = () => {
  const [telefone, setTelefone] = useState('')
  const [email, setEmail] = useState('')
  const [descricao, setDescricao] = useState('')
- const [categoria, setCategoria] = useState('')
+ const [, setCategoria] = useState('')
  const cadastrarContato = (e: FormEvent) => {
   e.preventDefault()
   const contatoAdd = new Contato(
